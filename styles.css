@@ -1,31 +1,30 @@
-color-example
+.color-example
 {
-    color: white;
-    background-color:#9CAF88;
+    color: black;
+    background-color:#9caf88;
     border-color: white;
     border-width: thin;
-
 }
-header-example
+.header-example
 {
     font-family: cursive;
-    font-size: medium;
-    color: #9CAF88;
+    font-size: large;
+    color: pink;
 }
-list-example
+.list-example
 {
     list-style-type: circle;
     color: green;
 }
-text-example
+.text-example
 {
   font-family: Arial;
   font-size: larger;
   text-transform: capitalize;
   text-decoration: underline;
 }
-div-example
+.div-example
 {
-    background-color: pink;
+    background-color: rgb(170, 28, 52);
     border-style: dashed;
 }
