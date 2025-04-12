@@ -1,0 +1,30 @@
+.color-example
+{
+    color: black;
+    background-color:#9caf88;
+    border-color: black;
+    border-width: thick;
+}
+.header-example
+{
+    font-family: cursive;
+    font-size: large;
+    color: pink;
+}
+.list-example
+{
+    list-style-type: circle;
+    color: green;
+}
+.text-example
+{
+  font-family: Arial;
+  font-size: larger;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.div-example
+{
+    background-color: rgb(170, 28, 52);
+    border-style: dashed;
+}
