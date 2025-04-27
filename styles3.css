@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialised;
+    background-color: rgb(58, 132, 105);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+#ylätunniste{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: pink;
+    box-shadow: 0 4px 10px gray;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#navigaatio a :hover {
+    background-color: white;
+    color: red;
+}
+#sisältö {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+.main-content {
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.artikkelit {
+    flex: 3;
+    margin-right: 20px;
+}
+#artikkeli1, #artikkeli2 {
+    background-color: rgb(240, 189, 189);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.kasvilista{
+    background-color: rgb(228, 187, 110);
+}
+#sivupalkki {
+    flex: 1;
+    background-color: rgb(148, 184, 172);
+    padding: 20px;
+}
+#sivupalkki img {
+    width: 20%;
+    height: auto;
+}
+#alatunniste{
+    background-color: rgb(162, 229, 229);
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #7dae95;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    color: red;
+}
+.horizontal-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
